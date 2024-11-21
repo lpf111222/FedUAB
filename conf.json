@@ -1,0 +1,27 @@
+{
+	"model_name" : "fcn_mnist",
+
+	"num_client" : 100,
+	
+	"dataset_name" : "mnist",
+
+	"global_epochs" : 1,
+
+	"k" : 10,
+
+	"batch_size" : 50,
+
+	"local_epochs" : 2,
+
+	"data_distribution" : "IID",
+
+	"dirichlet_alpha_min" : 0.0,
+
+	"dirichlet_alpha_max" : 0.5,
+
+	"lr" : 0.05,
+
+	"kl_division" : 0.0001,
+
+	"num_small_data" : 50
+}
