@@ -5,15 +5,15 @@
 	
 	"dataset_name" : "mnist",
 
-	"global_epochs" : 1,
+	"global_epochs" : 2001,
 
 	"k" : 10,
 
-	"batch_size" : 50,
+	"batch_size" : 10,
 
-	"local_epochs" : 2,
+	"local_epochs" : 5,
 
-	"data_distribution" : "IID",
+	"data_distribution" : "Non-IID-2",
 
 	"dirichlet_alpha_min" : 0.0,
 
@@ -23,5 +23,5 @@
 
 	"kl_division" : 0.0001,
 
-	"num_small_data" : 50
+	"num_small_data" : 0
 }
